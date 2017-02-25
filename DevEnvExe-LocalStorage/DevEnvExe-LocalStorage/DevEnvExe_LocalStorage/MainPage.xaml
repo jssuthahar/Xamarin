@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DevEnvExe_LocalStorage"
+             x:Class="DevEnvExe_LocalStorage.MainPage"
+     Padding="0, 20, 0, 0">
+
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="Auto" />
+      <ColumnDefinition Width="Auto" />
+      <ColumnDefinition Width="300" />
+    </Grid.ColumnDefinitions>
+    <Label Text="Login" Grid.Row="0" Grid.Column="2" FontSize="50" ></Label>
+
+    <Entry Placeholder="UserID" x:Name="txtuserid" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"  ></Entry>
+
+    <Entry IsPassword="True" x:Name="txtpassword" Placeholder="Password" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" ></Entry>
+    <StackLayout Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3">
+      <Button Text="Login" Clicked="Click_Login" ></Button>
+      <Button Text="Registrtion" Clicked="Click_Reg" ></Button>
+    </StackLayout>
+
+  </Grid>
+
+</ContentPage>

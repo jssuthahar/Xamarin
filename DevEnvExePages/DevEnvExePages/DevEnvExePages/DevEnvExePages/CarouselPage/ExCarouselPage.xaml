@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DevEnvExePages.ExCarouselPage">
+  <ContentPage>
+    <!--First Item-->
+    <StackLayout>
+      <WebView Source="https://social.msdn.microsoft.com/profile/j%20suthahar/" HeightRequest="592" HorizontalOptions="Center"/>
+    </StackLayout>
+  </ContentPage>
+  <!--2nd  Item-->
+  <ContentPage>
+    <StackLayout>
+      <WebView Source="http://www.devenvexe.com" HeightRequest="592" HorizontalOptions="Center"/>
+    </StackLayout>
+  </ContentPage>
+  <!--3rd Item-->
+  <ContentPage>
+    <StackLayout>
+      <WebView Source="http://www.c-sharpcorner.com/members/suthahar-j" HeightRequest="592" HorizontalOptions="Center"/>
+    </StackLayout>
+    </ContentPage>
+</CarouselPage>

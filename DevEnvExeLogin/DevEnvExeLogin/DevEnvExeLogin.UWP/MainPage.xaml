@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="DevEnvExeLogin.UWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DevEnvExeLogin.UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel  >
+            <TextBox PlaceholderText="Username" />
+            <PasswordBox  PlaceholderText="Password" />
+            <Button Content="Login"  Height="50"  />
+            <Button Content="Google"  Click="LoginClick"  Height="50" Width="150"/>
+            <Button Content="FaceBook"  Click="LoginClick"  Height="50"  Width="150"/>
+            <Button Content="Twitter"  Click="LoginClick"  Height="50"  Width="150"/>
+            <Button Content="Github" Click="LoginClick"  Height="50"  Width="150"/>
+            <Button Content="Yahoo"  Click="LoginClick" Height="50"  Width="150"/>
+            <Button Content="DropBox"  Click="LoginClick"  Height="50"/>
+            <Button Content="LinkedIn"  Click="LoginClick"  Height="50"/>
+            <Button Content="Flicker"  Click="LoginClick"  Height="40"/>
+            <Button Content="MICROSOFT"  Click="LoginClick"  Height="40"/>
+        </StackPanel>
+    </Grid>
+</Page>

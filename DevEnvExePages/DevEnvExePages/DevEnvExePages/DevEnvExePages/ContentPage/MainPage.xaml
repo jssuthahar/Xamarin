@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DevEnvExePages"
+             x:Class="DevEnvExePages.MainPage">
+  <StackLayout>
+  <Label Text="Samples"
+           HorizontalOptions="Center" />
+  <Button Text="MasterDetails Page" WidthRequest="50" HeightRequest="50" Clicked="MasterDetails_Click"></Button>
+  <Button Text="TabbedPage" Clicked="TabbedPage_Click" WidthRequest="50" HeightRequest="50"></Button>
+    <Button Text="Carousal Page" WidthRequest="50" HeightRequest="50" Clicked="Carousal_Click"></Button>
+  </StackLayout>
+</ContentPage>

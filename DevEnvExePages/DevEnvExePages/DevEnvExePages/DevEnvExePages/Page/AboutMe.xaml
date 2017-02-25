@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DevEnvExePages.AboutMe">
+ 
+  <Label Text="I enjoy challenging opportunities to learn new things, solve complex technical design/development issues and collaborate with people across various teams in different parts of the globe -Around 10 years of experience in Microsoft technologies like Windows Phone , Windows Store , UWP, Xamarin , SharePoint ,ASP.Net, VB.Net, C#.net, SQL server, WCF, WPF, SSRS, AJAX and working as Project Team Lead in a US based MNC and done several certifications on Microsoft technology(MCP, MCAD, MCSD, MCTS)"
+           HorizontalOptions="Center" />
+</ContentPage>

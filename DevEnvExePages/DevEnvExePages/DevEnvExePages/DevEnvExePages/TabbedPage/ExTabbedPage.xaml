@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:DevEnvExePages;assembly=DevEnvExePages"
+             x:Class="DevEnvExePages.ExTabbedPage">
+  <!--<NavigationPage Title="AboutMe">
+    <x:Arguments>
+      <local:AboutMe />
+    </x:Arguments>
+  </NavigationPage>
+  <NavigationPage Title="Blogs">
+    <x:Arguments>
+      <local:Blogs />
+    </x:Arguments>
+  </NavigationPage>
+  <NavigationPage Title="MSDN">
+    <x:Arguments>
+      <local:MSDN />
+    </x:Arguments>
+  </NavigationPage>
+  <NavigationPage Title="C# Corner">
+    <x:Arguments>
+      <local:CSharp />
+    </x:Arguments>
+  </NavigationPage>-->
+  <TabbedPage.Children>
+    <local:AboutMe Icon="icon.png" />
+    <ContentPage Title="cSharp" Icon="icon.png" >
+      <StackLayout>
+      <WebView Source="http://www.c-sharpcorner.com/members/suthahar-j" HeightRequest="592" HorizontalOptions="Center"/>
+      </StackLayout>
+    </ContentPage>
+    <ContentPage Title="MSDN" Icon="icon.png" />
+  </TabbedPage.Children>
+</TabbedPage >
