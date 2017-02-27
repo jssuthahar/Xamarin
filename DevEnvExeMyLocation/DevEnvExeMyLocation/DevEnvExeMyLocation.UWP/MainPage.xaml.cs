@@ -20,7 +20,7 @@ namespace DevEnvExeMyLocation.UWP
         public MainPage()
         {
             this.InitializeComponent();
-
+            Xamarin.FormsMaps.Init("2Bqr3cXqACFZKMNT6XFs~TQMFZ6vCmVUv3rDKJqNqtw~An5RkcU0gz5VJdP8ZxGBDWfmBF7BgaB1EabU91oufvb8kgLTgxsfFiAaZUyYwzqs");
             LoadApplication(new DevEnvExeMyLocation.App());
         }
     }

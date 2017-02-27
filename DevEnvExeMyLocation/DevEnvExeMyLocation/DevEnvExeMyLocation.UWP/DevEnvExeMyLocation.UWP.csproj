@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{F2942D10-A2FF-4725-B325-83994E329404}</ProjectGuid>
+    <ProjectGuid>{9FCBA476-B3D5-46AF-BA87-BBA0532DDDB2}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DevEnvExeMyLocation.UWP</RootNamespace>
@@ -127,16 +127,14 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DevEnvExeMyLocation\DevEnvExeMyLocation.csproj">
+      <Project>{3c5c2c37-e144-4f36-8c21-eb83a8aa3fd8}</Project>
+      <Name>DevEnvExeMyLocation</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
-  <Import Project="..\DevEnvExeMyLocation\DevEnvExeMyLocation.projitems" Label="Shared" Condition="Exists('..\DevEnvExeMyLocation\DevEnvExeMyLocation.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>

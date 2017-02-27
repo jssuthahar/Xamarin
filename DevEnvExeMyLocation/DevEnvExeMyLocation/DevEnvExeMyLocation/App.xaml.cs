@@ -7,28 +7,35 @@ using Xamarin.Forms;
 
 namespace DevEnvExeMyLocation
 {
-	public partial class App : Application
-	{
-		public App ()
-		{
-			InitializeComponent();
+    public partial class App : Application
+    {
+        public App()
+        {
+            InitializeComponent();
+            //var tabs = new TabbedPage();
 
-			MainPage = new DevEnvExeMyLocation.MainPage();
-		}
+            //// demonstrates the map control with zooming and map-types
+            //tabs.Children.Add(new MapPage { Title = "Map/Zoom", Icon = "glyphish_74_location.png" });
 
-		protected override void OnStart ()
-		{
-			// Handle when your app starts
-		}
+            
 
-		protected override void OnSleep ()
-		{
-			// Handle when your app sleeps
-		}
+            //MainPage = tabs;
+            MainPage = new DevEnvExeMyLocation.MainPage();
+        }
 
-		protected override void OnResume ()
-		{
-			// Handle when your app resumes
-		}
-	}
+        protected override void OnStart()
+        {
+            // Handle when your app starts
+        }
+
+        protected override void OnSleep()
+        {
+            // Handle when your app sleeps
+        }
+
+        protected override void OnResume()
+        {
+            // Handle when your app resumes
+        }
+    }
 }

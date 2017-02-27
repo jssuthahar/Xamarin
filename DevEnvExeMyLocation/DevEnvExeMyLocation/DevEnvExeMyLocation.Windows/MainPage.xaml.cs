@@ -20,7 +20,7 @@ namespace DevEnvExeMyLocation.Windows
         public MainPage()
         {
             this.InitializeComponent();
-
+            Xamarin.FormsMaps.Init("INSERT_AUTHENTICATION_TOKEN_HERE");
             LoadApplication(new DevEnvExeMyLocation.App());
         }
     }
