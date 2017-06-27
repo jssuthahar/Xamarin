@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DevEnvExeFace"
+             x:Class="DevEnvExeFace.MainPage">
+    <StackLayout>
+        
+   
+    <Button Text="Click to here for share your emotion" WidthRequest="50" HeightRequest="50" Clicked="emotion_Clicked"></Button>
+    <Label Text="Welcome to Xamarin Forms!" x:Name="lblrating" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+    <Image Source="article.png" ></Image>
+    </StackLayout>
+
+</ContentPage>
