@@ -1,0 +1,32 @@
+﻿<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>DevEnvExe Mobile Application Template</Name>
+    <Description>UWP based Windows mobile application with online and offline feature</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>DevEnv_Template</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>img.png</Icon>
+  </TemplateData>
+  <TemplateContent>
+	<ProjectCollection>
+            <ProjectTemplateLink ProjectName="$projectname$.Offline">
+                Dev_Offline\MyTemplate.vstemplate
+            </ProjectTemplateLink>
+            <ProjectTemplateLink ProjectName="$projectname$.Online">
+                DevEnv_Online\MyTemplate.vstemplate
+            </ProjectTemplateLink>
+	    <ProjectTemplateLink ProjectName="$projectname$.Service">
+                DevEnv_Service\MyTemplate.vstemplate
+            </ProjectTemplateLink>
+	    <ProjectTemplateLink ProjectName="$projectname$">
+                DevEnv_Template\MyTemplate.vstemplate
+            </ProjectTemplateLink>
+        </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>

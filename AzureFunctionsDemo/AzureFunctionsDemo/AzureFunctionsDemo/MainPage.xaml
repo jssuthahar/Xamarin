@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AzureFunctionsDemo.MainPage">
+<StackLayout>  
+  <!--Title text-->
+<Label Text ="Building Serverless Mobile App with Azure Functions using Xamarin Forms" HorizontalOptions="Center" TextColor="Green" FontSize="30" />
+  <!--Provide Input Parameter to Azure Functions--> 
+  <Entry TextColor="Green" x:Name="txtname" Placeholder =" Enter Your Name" />
+  <!--Click On Button For Communicate to Azure Functions-->
+    <Button Text="Click Me!"  Clicked="OnButtonClicked" />
+  <!--Activity Indicator will show progress of client and Azure connection and excution--> 
+  <ActivityIndicator x:Name="waitindicator" IsVisible ="false"
+                           Color="Black" />
+  <!--Output label-->
+<Label x:Name="lblname" HorizontalOptions="Center" TextColor="Green" FontSize="30" />
+</StackLayout>
+</ContentPage>
