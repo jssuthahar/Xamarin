@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BotDialog.Dialogs.RootDialog">
+    <Position X="0.75" Y="0.75" Width="2" />
+    <Members>
+      <Field Name="count" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABCAAAAEAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Dialogs\RootDialog.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BotDialog.MessagesController">
+    <Position X="3.25" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\MessagesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
