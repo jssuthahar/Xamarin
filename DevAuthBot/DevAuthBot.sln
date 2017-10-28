@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevAuthBot", "DevAuthBot\DevAuthBot.csproj", "{EC78F11B-13B7-4489-B674-22F0B18F5827}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC78F11B-13B7-4489-B674-22F0B18F5827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC78F11B-13B7-4489-B674-22F0B18F5827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC78F11B-13B7-4489-B674-22F0B18F5827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC78F11B-13B7-4489-B674-22F0B18F5827}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9A415B9-AD25-4737-B1D6-4A006A964C0E}
+	EndGlobalSection
+EndGlobal
