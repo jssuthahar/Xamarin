@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace BotThumbnailCard.Dialogs
 {
     [Serializable]
-    public class ThumbnailCardDialog : IDialog<object>
+    public class SuthaharDialog : IDialog<object>
     {
         public Task StartAsync(IDialogContext context)
         {
@@ -24,7 +24,7 @@ namespace BotThumbnailCard.Dialogs
         {
             var message = await result;
             var welcomeMessage = context.MakeMessage();
-            welcomeMessage.Text = "Welcome to bot Thumbnail Card Demo";
+            welcomeMessage.Text = "Welcome to DevEnvExe Chat Bot";
 
             await context.PostAsync(welcomeMessage);
 

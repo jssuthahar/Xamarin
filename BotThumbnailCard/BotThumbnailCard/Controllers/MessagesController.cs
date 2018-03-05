@@ -18,7 +18,7 @@ namespace BotThumbnailCard
         {
             if (activity.Type == ActivityTypes.Message)
             {
-                await Conversation.SendAsync(activity, () => new Dialogs.ThumbnailCardDialog());
+                await Conversation.SendAsync(activity, () => new Dialogs.SuthaharDialog());
             }
             else
             {
