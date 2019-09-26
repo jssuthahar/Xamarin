@@ -1,0 +1,18 @@
+﻿<rxui:ReactiveContentPage
+  x:Class="ReactiveUIXamarin.MainPage"
+  x:TypeArguments="vm:MainPageViewModel"          
+  xmlns:vm="clr-namespace:ReactiveUIXamarin.ViewModel;assembly=ReactiveUIXamarin"
+  xmlns:rxui="clr-namespace:ReactiveUI.XamForms;assembly=ReactiveUI.XamForms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
+  xmlns="http://xamarin.com/schemas/2014/forms"
+    ios:Page.UseSafeArea="true">
+    <StackLayout>
+        <Entry x:Name="Username" Placeholder="Username"/>
+        <Entry x:Name="Password" Placeholder="Password"  />
+        <Entry x:Name="Address" Placeholder="Address"  />
+        <Entry x:Name="Phone" Placeholder="Phone Number" />
+        <Button x:Name="Register" Text="Register" TextColor="White" BackgroundColor="Gray" />
+        <Label x:Name="Result" />
+    </StackLayout>
+</rxui:ReactiveContentPage>
